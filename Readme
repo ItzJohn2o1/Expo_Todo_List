@@ -1,0 +1,11 @@
+# Expo Todo App
+
+This project uses Expo to build a cross-platform mobile app that allows users to create, view, and manage tasks.
+
+## Installation
+
+To install this project, follow these steps:
+
+1. Clone the repository from GitHub:
+```sh
+git clone https://github.com/morajohn/Expo_Todo_App.git
