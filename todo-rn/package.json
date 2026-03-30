@@ -2,11 +2,14 @@
   "name": "todo-rn",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://github.com/ItzJohn2o1/Expo_Todo_List.git",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "expo export --platform web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
@@ -20,5 +23,8 @@
     "react-native-safe-area-context": "~5.6.0",
     "react-native-web": "^0.21.0"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
