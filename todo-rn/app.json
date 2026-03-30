@@ -4,7 +4,7 @@
     "slug": "todo-rn",
     "version": "1.0.0",
     "web": {
-      "publicPath": "/Expo_Todo_List/todo-rn"
+      "publicPath": "/Expo_Todo_List/"
     },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
